@@ -1,0 +1,237 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav__main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: azure; 
+}
+.nav__img__container{
+  width: 200px;
+}
+.nav__image{
+  width: 100%;
+}
+.nav__button{ 
+  background: linear-gradient(
+   to right, orange, tomato
+  );
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+.nav__button:hover{
+  background: linear-gradient(
+    to right, tomato, orange
+  ); 
+  cursor: pointer; 
+}
+
+.hero__section{
+  background-image: url("assets/noodles.jpg");
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: 100%;
+  align-items: center;
+  display: flex;
+}
+.hero__text__section{
+  align-items: center;
+  padding: 20%;
+}
+.hero__text{
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  background: black;
+}
+
+.Food__items__section{
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.Food__circle__carousel
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.biryani__circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url("assets/biryani.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 4px 4px 4px 4px black;
+}
+
+.biryani__circle:hover{cursor: pointer;}
+.pasta__circle:hover{cursor: pointer;}
+.cake__circle:hover{cursor:pointer;}
+.chai__circle:hover{cursor:pointer;}
+
+.pasta__circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url("assets/pasta.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 4px 4px 4px 4px black;
+}
+.cake__circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url("assets/cake.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 4px 4px 4px 4px black;
+}
+.chai__circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-image: url("assets/chai.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 4px 4px 4px 4px black;
+}
+
+.__holder{
+  padding: 1%;
+}
+
+.Food__item__heading{
+  text-align: center;
+  padding: 1.2%;
+  font-size: 34px;
+}
+.circle__text{
+   margin: 10% 10% 10% 28%;
+}
+
+.restaurant__card__subcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.restaurant__text__container{
+  display:flex;
+  justify-content: space-between;
+}
+.restaurant__img__hotel1{
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+  background-image: url("assets/hotel1.jpg");
+  background-size: 100% 100%;
+}
+.restaurant__img__hotel2{
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+  background-image: url("assets/hotel2.jpg");
+  background-size: 100% 100%;
+}
+.restaurant__img__hotel3{
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+  background-image: url("assets/hotel3.jpg");
+  background-size: 100% 100%;
+}
+.restaurant__img__hotel4{
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+  background-image: url("assets/hotel4.jpg");
+  background-size: 100% 100%;
+}
+.restaurant__img__hotel5{
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+  background-image: url("assets/hotel5.jpg");
+  background-size: 100% 100%;
+}
+.restaurant__img__hotel6{
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+  background-image: url("assets/hotel6.jpg");
+  background-size: 100% 100%;
+}
+.restaurant__card{
+  width: 400px;
+  height: 400px;
+  padding: 2%;
+  border-radius: 25px;
+}
+.restaurant__card:hover{
+  background-color: lightcyan;
+  cursor: pointer;
+  box-shadow: 10px black;
+}
+.restaurant__status{
+  color: red;
+}
+
+.footer__main{
+  background-color: #f8f8f8;
+}
+
+.footer1{
+  display:flex;
+  justify-content: space-around;
+  padding:2%;
+
+}
+.footer__logo{
+   width: 180px;
+   margin-right:185px;
+}
+.footer2{
+  display:flex;
+  justify-content:space-evenly;
+  padding-bottom: 6%;
+}
+.footer3{
+  display:flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.footer2__heading{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   letter-spacing: 4px;
+   margin-bottom: 2%;
+}
+.footer2__sub__heading{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   opacity: 55%;
+   padding:0.9%;
+}
+.country__dropdown{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+}
+.language__dropdown{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+
+}
